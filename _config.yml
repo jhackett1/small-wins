@@ -1,0 +1,20 @@
+sass:
+  sass_dir: _sass
+
+title: Small Wins
+email: hello@smallwins.co.uk
+description: Web design, development and proper, reliable web hosting for busy people.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://smallwins.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_url: SmallWinsUK
+
+# Build settings
+markdown: kramdown
+#theme: minima
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - octopress-autoprefixer
+exclude:
+  - Gemfile
+  - Gemfile.lock

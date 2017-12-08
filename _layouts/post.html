@@ -1,0 +1,28 @@
+{% include header.html %}
+
+<section id="post-header">
+  <div class="container">
+    <h4>{{ page.date | date: "%b %-d, %Y" }}</h4>
+    <h1>{{ page.title | escape }}</h1>
+    <h2>{{ page.lede | escape }}</h2>
+  </div>
+</section>
+
+<article>
+  <div class="container">
+    {{ content }}
+  </div>
+</article>
+
+<section id="nav-links">
+  <ul>
+    {% if page.previous.url %}
+      <li><a href="{{page.previous.url}}"><i class="fa fa-arrow-left"></i>Previous post</a></li>
+    {% endif %}
+    {% if page.next.url %}
+      <li><a href="{{page.next.url}}">Next post<i class="fa fa-arrow-right"></i></a></li>
+    {% endif %}
+  </ul>
+</section>
+
+{% include footer.html %}

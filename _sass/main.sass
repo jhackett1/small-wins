@@ -1,0 +1,249 @@
+@import 'variables.sass'
+
+// Resets and global styles
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  background-color: $white
+
+h1, h2, h3, h4, h5
+  font-family: $h-stack
+p
+  font-family: $p-stack
+  line-height: 1.3em
+a
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+ul
+  list-style-type: none
+a.btn
+  background-color: $red
+  padding: 20px
+  display: inline-block
+  border-radius: 4px
+  font-family: $h-stack
+  color: $white
+  font-size: 0.9em
+  font-weight: 700
+  min-width: 120px
+  text-align: center
+  transition: 0.1s ease-in
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2)
+  &:active
+    transform: scale(0.95)
+  &:hover
+    text-decoration: none
+    filter: brightness(1.1)
+
+.animated
+  animation: fadeInUp 0.5s ease-in
+  animation-play-state: paused
+  &.animating
+    animation-play-state: running
+
+@keyframes fadeInUp
+  0%
+    opacity: 0
+    transform: translateY(10px)
+  100%
+    opacity: 1
+    transform: translateY(0px)
+
+@keyframes fadeIn
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+
+// General section styling
+section
+  display: flex
+  flex-direction: column
+  padding: 25px
+  h3
+    line-height: 1em
+    font-size: 2.5em
+    margin: 20px 0px
+
+.container
+  max-width: $max-width
+  margin: 0 auto
+
+// Header
+header
+  position: fixed
+  z-index: 999
+  width: 100%
+  padding: 10px 25px
+  transition: 0.1s ease-in
+  &.bg
+    background-color: rgba(255,255,255,0.95)
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1)
+    ul li a, a#logo svg
+      color: $grey3
+      fill: $grey3
+    a#logo span
+      color: $grey3
+  .container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    background-color: rgba(255,255,255,0)
+    // Class for fixed background
+  a#logo
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    &:hover, &:active
+      text-decoration: none
+    span
+      color: $white
+      font-family: $h-stack
+      font-weight: 700
+      margin-left: 15px
+      font-size: 1.2em
+      text-decoration: none
+      display: none
+    svg
+      width: 45px
+      height: 45px
+      fill: $white
+  ul
+    display: flex
+    flex-direction: row
+    align-items: center
+    li
+      margin: 10px
+      font-family: $h-stack
+      font-weight: 600
+      &:last-of-type
+        margin-right: 0px
+      a
+        color: $white
+        cursor: pointer
+
+// Hero section
+section#hero
+  background-color: $green
+  color: $white
+  height: 100vh
+  padding: 25px
+  justify-content: center
+  position: relative
+  .container
+    z-index: 2
+  #particles
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    z-index: 1
+  span.fa-long-arrow-down
+    cursor: pointer
+    position: absolute
+    bottom: 25px
+    right: 25px
+    color: $white
+    font-size: 150%
+    z-index: 2
+  h1
+    font-size: 4em
+    line-height: 1em
+    margin-bottom: 15px
+    // animation: fadeIn 0.5s ease-in
+    z-index: 2
+    span
+      text-decoration: underline
+      // animation: fadeIn 1.5s ease-in-out
+  h2
+    font-family: $p-stack
+    color: $blue
+    font-weight: 100
+    font-style: italic
+    font-size: 1.4em
+    margin-top: 10px
+    z-index: 2
+
+// Sells
+section.sell
+  background-color: $white
+  h3
+    color: $grey4
+  p
+    color: $grey2
+    margin: 15px 0px
+    font-size: 1.1em
+    a
+      color: $red
+  a.btn
+    margin: 20px 0px
+  img
+    margin: 15%
+// The second one, with inverted colors
+section.sell:nth-of-type(odd)
+  background-color: $blue
+  h3
+    color: $white
+  p
+    color: $grey1
+
+
+section#services
+  background-color: $green
+  color: $white
+  p
+    margin-bottom: 20px
+  ul
+    li
+      padding: 20px
+      margin-bottom: 20px
+      background-color: $white
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.2)
+      border-radius: 4px
+      h4
+        color: $grey4
+        font-size: 1.5em
+        margin-bottom: 15px
+      p
+        color: $grey2
+        margin-bottom: 10px
+        &:last-of-type
+          margin-bottom: 0px
+
+section#cta
+  background-color: $red
+  color: $white
+  align-items: flex-start
+  p
+    margin-bottom: 15px
+    font-size: 1.1em
+  a.btn
+    background-color: $white
+    color: $grey4
+    margin: 20px 0px
+
+
+footer
+  background-color: $grey4
+  text-align: center
+  color: $white
+  padding: 25px
+  p
+    font-family: $h-stack
+    font-weight: 700
+    color: $grey2
+  img
+    margin-top: 20px
+    opacity: 0.3
+    width: 80px
+    height: 80px
+
+@import 'post.sass'
+@import 'responsive.sass'

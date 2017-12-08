@@ -1,0 +1,138 @@
+@import 'variables.sass'
+
+@media screen and (min-width: 500px)
+  header
+    a#logo
+      span
+        display: inline
+
+@media screen and (min-width: 700px)
+  section#post-header
+    padding: 130px 25px 65px 25px
+    background-color: $grey1
+    h1
+      font-size: 4.5em
+    h2
+      font-size: 1.8em
+      max-width: 600px
+      margin: 0 auto
+
+  article
+    margin: 60px auto
+    p, h1, h2, h3, h4, h5
+      max-width: 600px
+    blockquote
+      text-align: center
+      margin: 40px auto
+
+  section#nav-links
+    ul li a
+      // color: red !important
+      padding: 35px
+      font-size: 1.3em
+
+  section#hero
+    h1
+      font-size: 6em
+      margin-bottom: 30px
+    h2
+      font-size: 2em
+      line-height: 1.3em
+    span.fa-long-arrow-down
+      font-size: 200%
+
+  section.sell
+    .container
+      display: flex
+      flex-direction: row
+      aside
+        flex: 1
+        min-height: 70vh
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: flex-start
+        img
+          margin-left: 30%
+          margin-right: 0px
+    &:nth-of-type(odd)
+      aside:first-of-type
+        order: 2
+        text-align: right
+        align-items: flex-end
+      aside
+        img
+          margin-right: 30%
+          margin-left: 0px
+
+
+  section#services
+    h3
+      text-align: center
+    p.lead
+      max-width: 500px
+      margin: 20px auto
+      text-align: center
+    ul
+      margin-top: 40px
+      display: flex
+      flex-direction: row
+      li
+        flex: 1
+        margin-right: 20px
+        margin-bottom: -70px
+        min-height: 40vh
+        &:last-of-type
+          margin-right: 0px
+  section#cta
+    padding-top: 70px
+    .container
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      min-height: 50vh
+      p.lead
+        max-width: 500px
+        text-align: center
+      a.btn
+        font-size: 1.2em
+        padding: 25px
+        min-width: 200px
+
+@media screen and (min-width: 1500px)
+  section#post-header
+    h1
+      font-size: 6em
+    h2, h4
+      font-size: 2em
+  section#nav-links
+    ul
+      li
+        a
+          font-size: 1.8em
+  article
+    p
+      font-size: 1.2em
+      margin: 25px auto
+  section.sell
+    .container
+      aside
+        min-height: 50vh
+        h3
+          font-size: 3em
+  section#services
+    .container
+      h3
+        font-size: 3em
+      ul
+        li
+          min-height: 25vh
+          margin-right: 30px
+          &:last-of-type
+            margin-right: 0px
+  section#cta
+    .container
+      min-height: 35vh
+      h3
+        font-size: 3em

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-08T21:40:58+00:00</updated><id>http://localhost:4000//</id><title type="html">Small Wins</title><subtitle>Web design, development and proper, reliable web hosting for busy people.</subtitle><entry><title type="html">Why our web hosting beats the competition</title><link href="http://localhost:4000/2017/11/11/why-our-hosting-beats.html" rel="alternate" type="text/html" title="Why our web hosting beats the competition" /><published>2017-11-11T23:35:20+00:00</published><updated>2017-11-11T23:35:20+00:00</updated><id>http://localhost:4000/2017/11/11/why-our-hosting-beats</id><content type="html" xml:base="http://localhost:4000/2017/11/11/why-our-hosting-beats.html">&lt;p&gt;&lt;img src=&quot;/uploads/https.png&quot; alt=&quot;'Visually speaking, the film is impeccable.'&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;free-ssl-certificates&quot;&gt;Free SSL certificates&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Earn users’ trust with the free SSL certificates bundled with every Small Wins site.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Even sites that don’t handle sensitive information owe it to their users to protect their information online.&lt;/p&gt;
+
+&lt;p&gt;Web browsers will soon begin to warn users about unsecured sites that lack SSL certificates, so it pays to think ahead.&lt;/p&gt;
+
+&lt;p&gt;Give users that trusty green padlock - we’ll even handle the configuration for you.&lt;/p&gt;
+
+&lt;h1 id=&quot;regular-automated-backups&quot;&gt;Regular, automated backups&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Say goodbye to inadvertent data loss with our painless backup process.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Losing data is scary, so don’t leave it to chance.&lt;/p&gt;
+
+&lt;p&gt;Our backup proceedure creates frequent offsite backups and needs no input from you, so if things ever do go awry, you’re only ever a few clicks away from business as usual.&lt;/p&gt;
+
+&lt;p&gt;We can tailor backups to a schedule that makes sense for you - weekly, daily, or even hourly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/staging.png&quot; alt=&quot;'Visually speaking, the film is impeccable.'&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;a-staging-site-to-test-drive-changes&quot;&gt;A staging site to test-drive changes&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;We make it easy for you to try out changes without affecting your live site.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Say goodbye to fiddling with your site in full view of customers.&lt;/p&gt;
+
+&lt;p&gt;Our staging sites let you eliminate uncertainty. Try out appearance and functionality changes on a mirror image of your live site, safely hidden away from your users.&lt;/p&gt;
+
+&lt;p&gt;Feel empowered to experiment with the web.&lt;/p&gt;
+
+&lt;h1 id=&quot;dedicated-servers&quot;&gt;Dedicated servers&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;We use dedicated cloud servers to give your site room to breathe and expand.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Bargain basement web hosts cram websites onto servers by the dozen, with a single server sometimes hosting over one hundred sites.&lt;/p&gt;
+
+&lt;p&gt;This limits the amount of traffic each site can withstand, and if one site gets a traffic spike, the others suffer.&lt;/p&gt;
+
+&lt;p&gt;With us, your server hosts only your site - no one else’s.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/servers.png&quot; alt=&quot;'Visually speaking, the film is impeccable.'&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;bespoke-technical-support&quot;&gt;Bespoke technical support&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;If things go wrong, we’ll investigate and fix it for you.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We’re only an email or a phone call away. We’ll invest the time to make sure you get up and running as soon as possible, and stay that way.&lt;/p&gt;
+
+&lt;h1 id=&quot;modern-php&quot;&gt;Modern PHP&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;All our sites run on the most recent edition of PHP - making them faster and more secure than the competition.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;PHP is the programming language most of our sites run on. Most cheap web hosts are still running PHP5 - a version of the language released in 2004!&lt;/p&gt;
+
+&lt;p&gt;Because we run on PHP7, our sites are faster, more secure, and better prepared for today’s web.&lt;/p&gt;</content><summary type="html"></summary></entry></feed>

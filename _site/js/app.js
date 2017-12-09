@@ -36,19 +36,23 @@ document.getElementById('contact-link').addEventListener('click', function(){
 })
 
 // Smooth scroll of down arrow in hero
-document.getElementById('scroll-down').addEventListener('click', function(){
-  this.scrollIntoView({
-    block: "start",
-    inline: "nearest",
-    behavior: 'smooth'
-  });
-})
+if (document.getElementById('scroll-down')) {
+  document.getElementById('scroll-down').addEventListener('click', function(){
+    this.scrollIntoView({
+      block: "start",
+      inline: "nearest",
+      behavior: 'smooth'
+    });
+  })
+}
 
 // Turn on particle network thing
-var particleCanvas = new ParticleNetwork(document.getElementById('particles'), {
-  particleColor: '#efefef',
-  background: '#06D6A0',
-  interactive: true,
-  speed: 'slow',
-  density: 'medium'
-});
+if (document.getElementById('particles')) {
+  var particleCanvas = new ParticleNetwork(document.getElementById('particles'), {
+    particleColor: '#efefef',
+    background: '#06D6A0',
+    interactive: true,
+    speed: 'slow',
+    density: 'medium'
+  });  
+}

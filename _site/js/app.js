@@ -26,15 +26,6 @@ document.querySelectorAll('.animated').forEach(function(element){
   })
 });
 
-// Turn on particle network thing
-var particleCanvas = new ParticleNetwork(document.getElementById('particles'), {
-  particleColor: '#efefef',
-  background: '#06D6A0',
-  interactive: true,
-  speed: 'slow',
-  density: 'medium'
-});
-
 // Smooth scroll of contact link
 document.getElementById('contact-link').addEventListener('click', function(){
   document.querySelector('#cta').scrollIntoView({
@@ -52,3 +43,12 @@ document.getElementById('scroll-down').addEventListener('click', function(){
     behavior: 'smooth'
   });
 })
+
+// Turn on particle network thing
+var particleCanvas = new ParticleNetwork(document.getElementById('particles'), {
+  particleColor: '#efefef',
+  background: '#06D6A0',
+  interactive: true,
+  speed: 'slow',
+  density: 'medium'
+});

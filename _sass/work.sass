@@ -1,0 +1,47 @@
+@import 'variables.sass'
+
+section.work
+  display: flex
+  padding: 0px
+  aside
+    width: 100%
+    &:last-of-type
+      padding: 25px
+    img
+      width: 100%
+      height: 100%
+    h3
+      color: $grey3
+      margin: 5px 0px 20px 0px
+    h5
+      color: $green
+      font
+    p
+      color: $grey2
+      margin-bottom: 10px
+
+@media screen and (min-width: 700px)
+  section.work
+    display: flex
+    flex-direction: row
+    &:nth-of-type(even)
+      aside:last-of-type
+        order: -1
+        text-align: right
+        align-items: flex-end
+    aside
+      flex: 1
+      flex-basis: 50%
+      width: 50%
+      h5
+        font-size: 1.2em
+      h3
+        font-size: 3em
+        margin: 10px 0px 20px 0px
+      p
+        font-size: 1.1em
+        max-width: 90%
+      &:last-of-type
+        display: flex
+        flex-direction: column
+        justify-content: center
